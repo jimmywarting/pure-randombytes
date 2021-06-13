@@ -1,4 +1,4 @@
-# randombytes
+# pure randombytes
 
 Get secure cryptographic random bytes from of any TypedArray, ArrayBuffer or size without importing `node:crypto` or `node:buffer` to browsers.
 
