@@ -1,3 +1,5 @@
+/*! pure-randombytes. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+
 // limit of Crypto.getRandomValues()
 // https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
 const MAX_BYTES = 65536
