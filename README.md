@@ -4,6 +4,7 @@ Get secure cryptographic random bytes from of any TypedArray, ArrayBuffer or siz
 
 ```js
 import randomBytes from 'pure-randombytes'
+import randomBytes from 'https://cdn.jsdelivr.net/gh/jimmywarting/pure-randombytes@1.0.1/randombytes.js'
 
 randomBytes() // return Uint8(20) - default to 20 (same as sha1 length)
 randomBytes(16) // return Uint8(16)
