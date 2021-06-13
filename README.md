@@ -1,9 +1,9 @@
 # randombytes
 
-Get secure cryptographic random bytes from of any ArrayBufferView or size without importing `node:crypto` or `node:buffer` to browsers.
+Get secure cryptographic random bytes from of any TypedArray, ArrayBuffer or size without importing `node:crypto` or `node:buffer` to browsers.
 
 ```js
-import randomBytes from '@endless/randombytes'
+import randomBytes from 'pure-randombytes'
 
 randomBytes() // return Uint8(20) - default to 20 (same as sha1 length)
 randomBytes(16) // return Uint8(16)
