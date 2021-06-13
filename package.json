@@ -1,5 +1,5 @@
 {
-  "name": "@endless/randombytes",
+  "name": "pure-randombytes",
   "version": "1.0.0",
   "description": "Random bytes without node:buffer",
   "main": "randombytes.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimmywarting/randombytes.git"
+    "url": "git+https://github.com/jimmywarting/pure-randombytes.git"
   },
   "engines": {
     "node": ">=15.0.0"
@@ -17,10 +17,10 @@
   "author": "Jimmy Wärting <jimmy@warting.se> (https://jimmy.warting.se/opensource)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimmywarting/randombytes/issues"
+    "url": "https://github.com/jimmywarting/pure-randombytes/issues"
   },
-  "keywords": ["crypto", "random"],
-  "homepage": "https://github.com/jimmywarting/randombytes#readme",
+  "keywords": ["randombytes", "crypto", "random", "data", "getRandomValues"],
+  "homepage": "https://github.com/jimmywarting/pure-randombytes#readme",
   "funding": [
     {
       "type": "github",
