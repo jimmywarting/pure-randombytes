@@ -1,0 +1,34 @@
+{
+  "name": "@endless/randombytes",
+  "version": "1.0.0",
+  "description": "Random bytes without node:buffer",
+  "main": "randombytes.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmywarting/randombytes.git"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "author": "Jimmy Wärting <jimmy@warting.se> (https://jimmy.warting.se/opensource)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmywarting/randombytes/issues"
+  },
+  "keywords": ["crypto", "random"],
+  "homepage": "https://github.com/jimmywarting/randombytes#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/jimmywarting"
+    },
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/jimmywarting"
+    }
+  ]
+}
